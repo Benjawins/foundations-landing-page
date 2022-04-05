@@ -33,6 +33,9 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 325px;
+    flex: 1;
+    min-height: 360px;
 }
 
 .img-container {
@@ -42,6 +45,7 @@ img {
 
 .img-text {
     margin-top: 0px;
+    font-weight: 200;
 }
 
 
@@ -49,6 +53,13 @@ img {
     display: flex;
     flex-direction: row;
     gap: 50px;
+
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .small-img {
@@ -95,9 +106,9 @@ footer {
     background-color: #1F2937;
     justify-self: start;
     align-items: center;
-    min-height: 325px;
+    min-height: 360px;
     justify-content: space-around;
-    /* flex: 1; */
+    flex: 1; 
 }
 
 .hero-text{
@@ -135,5 +146,26 @@ footer {
     flex-direction: column;
     min-height: 100vh;
 }
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex: 1;
+    min-height: 360px;
+}
 
-
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+.quote-sign {
+    align-self: flex-end;
+    font-weight: bold;
+}
