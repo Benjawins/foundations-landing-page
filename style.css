@@ -11,15 +11,14 @@ ul {
     gap: 10px;
 }
 
-.hero-image {
-    width: auto;
+.hero-image > img{
     height: 200px;
+    width: 400px;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: fill;
 }
 
 .small-img > img{
@@ -36,6 +35,8 @@ img {
     min-height: 325px;
     flex: 1;
     min-height: 360px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .img-container {
@@ -168,4 +169,67 @@ footer {
 .quote-sign {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 360px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.call2action{
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.call2action-textbox{
+    flex-direction: column;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+.call2action-header{
+    color: #F9FAF8;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 0;
+    max-width: fit-content;
+}
+
+.call2action-text{
+    color: #F9FAF8;
+    font-size: 28px;
+    display: flex;
+    margin-top: 0;
+    max-width: fit-content;
+}
+
+.call2action-button{
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 40px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.c2a-button{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
