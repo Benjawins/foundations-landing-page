@@ -32,11 +32,11 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 325px;
     flex: 1;
     min-height: 360px;
     padding-left: 200px;
     padding-right: 200px;
+
 }
 
 .img-container {
@@ -178,6 +178,7 @@ footer {
     min-height: 360px;
     padding-left: 200px;
     padding-right: 200px;
+    flex: 1; 
 }
 
 .call2action{
@@ -203,7 +204,6 @@ footer {
     font-weight: bold;
     display: flex;
     margin-bottom: 0;
-    max-width: fit-content;
 }
 
 .call2action-text{
@@ -211,7 +211,6 @@ footer {
     font-size: 28px;
     display: flex;
     margin-top: 0;
-    max-width: fit-content;
 }
 
 .call2action-button{
@@ -221,8 +220,8 @@ footer {
     color: #F9FAF8;
     font-size: 40px;
     display: flex;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .c2a-button{
@@ -230,6 +229,4 @@ footer {
     flex: 1;
     align-items: center;
     justify-content: center;
-    padding-left: 5px;
-    padding-right: 5px;
 }
